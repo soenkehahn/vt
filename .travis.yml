@@ -1,7 +1,9 @@
 language: haskell
 ghc: 7.8
 before_install:
-  - echo huhu
+  - sudo apt-get update -qq
+  - sudo apt-get install -y vagrant
+
 
 install:
   - echo foo
