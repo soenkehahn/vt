@@ -1,0 +1,7 @@
+language: haskell
+ghc: 7.8
+before_install:
+  - echo huhu
+
+script:
+  - vagrant up
