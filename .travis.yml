@@ -3,5 +3,8 @@ ghc: 7.8
 before_install:
   - echo huhu
 
+install:
+  - echo foo
+
 script:
   - vagrant up
